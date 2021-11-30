@@ -13,7 +13,6 @@ public class LonelyInteger {
 
             Property: if a binary number A is XOR by B twice, the result is A;
                       in short: XOR is commutative and associative
-
             Since we know the lonely integer only appears once and repeated elements appear twice,
             Every value will cancel itself out except the lonely integer
 
