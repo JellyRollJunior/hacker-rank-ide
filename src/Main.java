@@ -4,8 +4,24 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        String time = "12:05:45PM";
-        System.out.println(timeConversion(time));
+
+    }
+
+    /*
+     * Given an array of integers, where all elements but one occur twice, find the unique element.
+     */
+    public static int lonelyInteger(List<Integer> a) {
+        List<Integer> results = new ArrayList<>();
+
+        for (Integer value : a) {
+            if (results.contains(value)) {
+                results.remove(value);
+            } else {
+                results.add(value);
+            }
+        }
+
+        return results.get(0);
     }
 
     /*
