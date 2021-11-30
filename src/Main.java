@@ -11,6 +11,16 @@ public class Main {
      * Given an array of integers, where all elements but one occur twice, find the unique element.
      */
     public static int lonelyInteger(List<Integer> a) {
+        /*
+            O(N) , O(1) space solution : I need to focus more on mathematics rather than relying on
+            prebuilt functions
+
+            int val = 0;
+            for (int num : a) {
+                val = val ^ num; // ^ is XOR operator
+            }
+            return val;
+         */
         List<Integer> results = new ArrayList<>();
 
         for (Integer value : a) {
