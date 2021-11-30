@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MatchingStrings {
 
@@ -9,6 +11,24 @@ public class MatchingStrings {
      * Return an array of the results.
      */
     public static List<Integer> matchingStrings(List<String> strings, List<String> queries) {
+        /*
+            O(N+M) solution : use preprocessing + hashmap => when doing Q queries on input, try to use preprocessing
+            Reflection:
+
+            Map<String, Integer> map = new HashMap<>();
+            for (String string : strings) {
+                int numTimesAppeared = map.getOrDefault(string, 0);
+                map.put(string, ++numTimesAppeared);
+            }
+
+            List<Integer> results = new ArrayList<>();
+            for (String query : queries) {
+                results.add(map.getOrDefault(query, 0));
+            }
+
+            return results;
+         */
+
         List<Integer> results = new ArrayList<>();
 
         for (String query : queries) {

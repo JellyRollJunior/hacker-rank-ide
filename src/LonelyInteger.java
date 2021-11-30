@@ -8,8 +8,8 @@ public class LonelyInteger {
      */
     public static int lonelyInteger(List<Integer> a) {
         /*
-            O(N) , O(1) space solution : I need to focus more on mathematics rather than relying on
-            prebuilt functions
+            O(N) , O(1) space solution:
+            Reflection: I need to focus more on mathematical theory rather than relying on prebuilt functions
 
             Property: if a binary number A is XOR by B twice, the result is A;
                       in short: XOR is commutative and associative
