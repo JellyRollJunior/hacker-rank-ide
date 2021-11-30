@@ -13,7 +13,7 @@ public class MatchingStrings {
     public static List<Integer> matchingStrings(List<String> strings, List<String> queries) {
         /*
             O(N+M) solution : use preprocessing + hashmap => when doing Q queries on input, try to use preprocessing
-            Reflection:
+            Reflection: I need to focus on data structures available to me rather than only using lists.
 
             Map<String, Integer> map = new HashMap<>();
             for (String string : strings) {
