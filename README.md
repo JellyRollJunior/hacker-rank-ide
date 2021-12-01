@@ -1,5 +1,7 @@
-## hacker-rank-ide
-Process:
+# hacker-rank-ide
+Tracking my progress on HackerRank :)
+
+## Process:
  - Produce my own solution
  - Find optimal solution
  - Understand optimal solution 
