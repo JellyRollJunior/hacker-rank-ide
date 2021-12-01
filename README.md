@@ -1,5 +1,8 @@
 ## hacker-rank-ide
-Tracking my hacker rank questions :)
+Process:
+ - Produce my own solution
+ - Find optimal solution
+ - Understand optimal solution 
 
 ## Reflection
 
