@@ -13,5 +13,8 @@ Tracking my progress on HackerRank :)
  - LonelyInteger: focus more on mathematical theory rather than relying on prebuilt list functions
  - FlippingBits: my first time trying bitwise operators! feels very rewarding :)
  - DiagonalDifference: need to ask myself how I can use mathematical principles (such as the commutative property of +/- to shorten code)
- - CountingSort: kind of a boring problem. Possible improvements: use array to index => then convert to list may be slightly faster (?)
+
+#### not much to say section
+ - CountingSort: kind of a boring problem. 
+   - Possible improvements: use int array to index then convert to list may be slightly faster (?)
 
