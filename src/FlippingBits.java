@@ -9,6 +9,7 @@ public class FlippingBits {
         StringBuilder result = new StringBuilder();
 
         for (int i = 0; i < LONG_DIGITS; i++) {
+            // x & 00...001 makes every bit 0 except last bit which stays the same
             long lastBit = (n >> i) & 1;
 
             if (lastBit == 1) {
