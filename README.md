@@ -13,6 +13,7 @@ Tracking my progress on HackerRank :)
  - LonelyInteger: focus more on mathematical theory rather than relying on prebuilt list functions
  - FlippingBits: my first time trying bitwise operators! feels very rewarding :)
  - DiagonalDifference: need to ask myself how I can use mathematical principles (such as the commutative property of +/- to shorten code)
+ - Pangrams: pay attention to conditionals as they can make the question easier!
 
 #### not much to say section
  - CountingSort: kind of a boring problem. 
