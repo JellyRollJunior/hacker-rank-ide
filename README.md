@@ -15,7 +15,7 @@ Tracking my progress on HackerRank :)
  - Pangrams: pay attention to conditionals as they can make the question easier!
 
 #### not much to say section
- - FlippingBits: my first time trying bitwise operators! feels very rewarding :)
+ - FlippingBits: my first time solving a solution using bitwise operators! feels very rewarding :)
  - CountingSort: kind of a boring problem. 
    - Possible improvements: use int array to index then convert to list may be slightly faster (?)
  - TwoArrays: learned how to use comparators. First question I solved myself that I really had to think about algorithmically!. Proud! :)
