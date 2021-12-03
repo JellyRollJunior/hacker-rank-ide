@@ -11,6 +11,15 @@ public class TwoArrays {
      * return YES if some permutation satisfying the relation exists. Otherwise, return NO.
      */
     public static String twoArrays(int k, List<Integer> A, List<Integer> B) {
+        /*
+         * Reflection: indexing can be more elegant if I sort B in reverse order by specifying my own sort comparator
+         * Collections.sort(B, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o2 - o1;
+            }
+         * });
+         */
         Collections.sort(A);
         Collections.sort(B);
 
