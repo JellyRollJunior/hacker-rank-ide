@@ -18,4 +18,5 @@ Tracking my progress on HackerRank :)
 #### not much to say section
  - CountingSort: kind of a boring problem. 
    - Possible improvements: use int array to index then convert to list may be slightly faster (?)
+ - TwoArrays: learned how to use comparators. First question I solved myself that I really had to think about algorithmically!. Proud! :)
 
