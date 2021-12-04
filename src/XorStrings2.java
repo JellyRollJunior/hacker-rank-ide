@@ -5,8 +5,9 @@ public class XorStrings2 {
      */
     public static String stringsXOR(String s, String t) {
         /*
-         * Original:
+         * Reflection: this one is a bit too easy
          *
+         * Original:
          * String res = new String("");
            for(int i = 0; i < s.length(); i++) {
                 if(s.charAt(i) = t.charAt(i))
