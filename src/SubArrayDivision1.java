@@ -11,7 +11,6 @@ public class SubArrayDivision1 {
      * Determine how many ways she can divide the chocolate.
      */
     public static int birthday(List<Integer> s, int d, int m) {
-
         /*
          * Reflection: think about how work from previous iterations can help your current iteration
          *
