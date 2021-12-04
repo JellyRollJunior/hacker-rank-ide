@@ -13,6 +13,7 @@ Tracking my progress on HackerRank :)
  - LonelyInteger: focus more on mathematical theory rather than relying on prebuilt list functions
  - DiagonalDifference: need to ask myself how I can use mathematical principles (such as the commutative property of +/- to shorten code)
  - Pangrams: pay attention to conditionals as they can make the question easier!
+ - SubArrayDivision1: Think about how work from previous iterations can be reused!
 
 #### not much to say section
  - FlippingBits: my first time solving a solution using bitwise operators! feels very rewarding :)
