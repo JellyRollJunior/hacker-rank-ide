@@ -11,6 +11,30 @@ public class SubArrayDivision1 {
      * Determine how many ways she can divide the chocolate.
      */
     public static int birthday(List<Integer> s, int d, int m) {
+
+        /*
+         * Reflection: think about how work from previous iterations can help your current iteration
+         *
+         * my own solution to procedurally building sum:
+         *
+           int waysDivided = 0;
+           int sum = 0;
+           int startIndex = 0;
+
+           for (int i = 0; i < s.size(); i++) {
+               sum += s.get(i);
+               if (i - startIndex + 1 == m) {
+                   if (sum == d) {
+                       waysDivided++;
+                   }
+                   sum -= s.get(startIndex);
+                   startIndex++;
+               }
+           }
+
+           return waysDivided;
+         *
+         */
         int waysDivided = 0;
 
         for (int i = 0; i <= s.size() - m; i++) {
@@ -29,9 +53,14 @@ public class SubArrayDivision1 {
 
     public static void main(String[] args) {
         List<Integer> s = new ArrayList<>();
+        s.add(5);
+        s.add(2);
+        s.add(2);
         s.add(1);
-        s.add(4);
+        s.add(5);
+        s.add(3);
+        s.add(2);
 
-       System.out.println( birthday(s, 4, 1) );
+       System.out.println( birthday(s, 9, 3) );
     }
 }
