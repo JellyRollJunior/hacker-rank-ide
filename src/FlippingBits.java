@@ -5,6 +5,10 @@ public class FlippingBits {
      * and doing the flipping we get 11111111111111111111111111111110 which in turn is 4294967294.
      */
     public static long flippingBits(long n) {
+        /*
+         * Reflection: my first time solving a solution using bitwise operators! feels very rewarding :)
+         */
+
         int LONG_DIGITS = 32;
         StringBuilder result = new StringBuilder();
 

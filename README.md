@@ -8,7 +8,7 @@ Tracking my progress on HackerRank :)
 
 ## Reflection
 
- - MatchingStrings: focus on data structures available rather than only using lists.
+ - SparseArrays: focus on data structures available rather than only using lists.
    - Tip: when doing Q queries on an input, try to use preprocessing
  - LonelyInteger: focus more on mathematical theory rather than relying on prebuilt list functions
  - DiagonalDifference: need to ask myself how I can use mathematical principles (such as the commutative property of +/- to shorten code)

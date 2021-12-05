@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class MatchingStrings {
+public class SparseArrays {
 
     /*
      * There is a collection of input strings and a collection of query strings.
