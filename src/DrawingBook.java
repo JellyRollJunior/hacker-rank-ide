@@ -14,6 +14,9 @@ public class DrawingBook {
     public static int pageCount(int n, int p) {
         /*
          * if page number is even => last page is single by itself
+         *
+         * Reflection: This question took me way too long for how easy it is. Focus on working through examples
+         *             and don't rush questions just because they're easy. FOCUS!!!!
          */
 
         int flipsFromBack;
