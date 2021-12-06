@@ -15,6 +15,7 @@ Tracking my progress on HackerRank :)
  - DiagonalDifference: need to ask myself how I can use mathematical principles (such as the commutative property of +/- to shorten code)
  - Pangrams: pay attention to conditionals as they can make the question easier!
  - SubArrayDivision1: Think about how work from previous iterations can be reused!
+ - ZigZagSequence: I need to practice dealing with indices. This easy debug problem took me longer than it should have. 
 
 #### Medium
  - FlippingTheMatrix: 
