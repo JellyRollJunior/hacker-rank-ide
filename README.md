@@ -28,4 +28,5 @@ Tracking my progress on HackerRank :)
  - TwoArrays: learned how to use comparators. First question I solved myself that I really had to think about algorithmically!. Proud! :)
  - XorStrings2: debugging code, a bit too easy tbh
  - FindTheMedian: careful not to get tripped up by forgetting basics of indexing :)
+ - SalesByMatchin: my first problem solved using a hashmap! Feels good using what I've learned! :)))))))
 
