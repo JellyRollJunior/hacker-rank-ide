@@ -10,6 +10,16 @@ public class SalesByMatch {
      * determine how many pairs of socks with matching colors there are.
      */
     public static int sockMerchant(int n, List<Integer> ar) {
+        /*
+         * Reflection: my first time using hashmap to solve a problem. FeelsGoodMan
+         *             I'm pretty sure I over-engineered this problem but I'll check after I see the discussions.
+         *
+         * After searching discussions: I found a cleaner solution using sorting but sorting the list which saves space
+         *                              but makes the solution slower than my constant time solution.
+         *                              Although in practice, maintaining a large hashmap and array list may lead to
+         *                              slower times than just a list (I'm not sure just speculating :P)
+         */
+
         HashMap<Integer, Integer> map = new HashMap<>();
         List<Integer> distinctColors = new ArrayList<>();
 
