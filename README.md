@@ -17,6 +17,7 @@ Tracking my progress on HackerRank :)
  - SubArrayDivision1: Think about how work from previous iterations can be reused!
  - ZigZagSequence: I need to practice dealing with indices. This easy debug problem took me longer than it should have.
  - PageCount: work through examples carefully. Don't lose focus because "this is an easy question ill just rush through it".
+ - TowerBreakers: I need to step back and see the bigger picture. Don't get caught up in a single detail. 
 
 #### Medium
  - FlippingTheMatrix: 
