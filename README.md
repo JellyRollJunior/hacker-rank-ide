@@ -33,4 +33,5 @@ Tracking my progress on HackerRank :)
  - XorStrings2: debugging code, a bit too easy tbh
  - FindTheMedian: careful not to get tripped up by forgetting basics of indexing :)
  - SalesByMatchin: my first problem solved using a hashmap! Feels good using what I've learned! :)))))))
+ - MaxMin: this is the first non-trivial problem which I solved quickly (15 mins) and with the optimal solution! I'm super proud of myself!!!
 
