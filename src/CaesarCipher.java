@@ -4,6 +4,11 @@ public class CaesarCipher {
      * return string with chars shifted k characters forward. wrap around if at the end.
      */
     public static String caesarCipher(String s, int k) {
+        /*
+         * Reflection: This question made me realize I really need to think of solutions outside the obvious.
+         *             instead of reusing code and modulo-ing 26 twice, I could have modulo-ed the k instead.
+         */
+
         StringBuilder cipher = new StringBuilder("");
 
         for (int i = 0; i < s.length(); i++) {
