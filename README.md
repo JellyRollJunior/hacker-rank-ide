@@ -25,7 +25,7 @@ Tracking my progress on HackerRank :)
    - I won't say completed myself because I was stuck for a long time and looked at a hint that said there are only four values possible for each M[row][col] using row/col flipping. I feel slightly discouraged as previously I was at least able to hack a naive solution before looking to the discussions for help. I won't let this stop my learning though as this is what learning is all about :) if they were all easy then they wouldn't be problems. At least I can say I've successfully coded my first medium solution!
    - Tips: Have some scratch paper nearby for those tricky questions. Working this out on paper first would really have helped a lot in my opinion.
 
-#### not much to say section
+#### not much to say section (basics)
  - FlippingBits: my first time solving a solution using bitwise operators! feels very rewarding :)
  - CountingSort: kind of a boring problem. 
    - Possible improvements: use int array to index then convert to list may be slightly faster (?)
