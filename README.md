@@ -18,6 +18,7 @@ Tracking my progress on HackerRank :)
  - ZigZagSequence: I need to practice dealing with indices. This easy debug problem took me longer than it should have.
  - PageCount: work through examples carefully. Don't lose focus because "this is an easy question ill just rush through it".
  - TowerBreakers: I need to step back and see the bigger picture. Don't get caught up in a single detail. 
+ - CaesarCipher: USE THE SIMPLEST SOLUTION. Need to think outside of the obvious naive way to do a problem. Ask "How can I write less code?", "How can I reduce operations".
 
 #### Medium
  - FlippingTheMatrix: 
