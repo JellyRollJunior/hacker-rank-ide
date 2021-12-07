@@ -9,6 +9,10 @@ public class MaxMin {
      * Unfairness of an array is calculated as max(arr') - min(arr')
      */
     public static int maxMin(int k, List<Integer> arr) {
+        /*
+         * Reflection: I am quite proud of this solution! I did this question in like 15 minutes and
+         *             it's the optimal solution to boot! I can feel the progress lads.
+         */
         Collections.sort(arr);
 
         int endOffset = k - 1;
