@@ -9,21 +9,14 @@ public class CaesarCipher {
         for (int i = 0; i < s.length(); i++) {
             char current = s.charAt(i);
 
-            // lower case
             if (current >= 'a' && current <= 'z') {
-                int numericalChar = current - ('a' - 1);
-                int shiftedChar = (numericalChar + k);
-                while (shiftedChar > 26) {
-                    shiftedChar = shiftedChar - 26;
-                }
-                current = (char) (shiftedChar + ('a' - 1));
+                int numericalChar = current - 'a';
+                int shiftedChar = (numericalChar + k) % 26;
+                current = (char) (shiftedChar + 'a');
             } else if (current >= 'A' && current <= 'Z') {
-                int numericalChar = current - ('A' - 1);
-                int shiftedChar = (numericalChar + k);
-                while (shiftedChar > 26) {
-                    shiftedChar = shiftedChar - 26;
-                }
-                current = (char) (shiftedChar + ('A' - 1));
+                int numericalChar = current - ('A');
+                int shiftedChar = (numericalChar + k) % 26;
+                current = (char) (shiftedChar + 'A');
             }
 
             cipher.append(current);
@@ -39,5 +32,7 @@ public class CaesarCipher {
         String a = "abcxyz";
 
         System.out.println(caesarCipher(a, 26));
+
+        System.out.println(25 % 26);
     }
 }
