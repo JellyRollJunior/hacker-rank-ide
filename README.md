@@ -20,6 +20,7 @@ Tracking my progress on HackerRank :)
  - TowerBreakers: I need to step back and see the bigger picture. Don't get caught up in a single detail. 
  - CaesarCipher: USE THE SIMPLEST SOLUTION. Need to think outside of the obvious naive way to do a problem. Ask "How can I write less code?", "How can I reduce operations".
  - GridChallenge: I still need to improve my indexing visualization!
+ - SherlockAndArray: be aware that you can manipulate forloop indexing to reduce code! Iteration i doesn't have to mean we're checking the solution for index i!
 
 #### Medium
  - FlippingTheMatrix: 
