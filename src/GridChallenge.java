@@ -1,7 +1,5 @@
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class GridChallenge {
@@ -31,8 +29,8 @@ public class GridChallenge {
         for (int col = 0; col < grid.get(0).length(); col++) {
             StringBuilder columnString = new StringBuilder();
 
-            for (int row = 0; row < grid.size(); row++) {
-                columnString.append(grid.get(row).charAt(col));
+            for (String row : grid) {
+                columnString.append(row.charAt(col));
             }
 
             // check if column value is sorted
