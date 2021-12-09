@@ -6,7 +6,18 @@ import java.util.List;
 
 public class GridChallenge {
 
+    /*
+     * Given a square grid of characters in the range ascii[a-z], rearrange elements of each row alphabetically,
+     * ascending. Determine if the columns are also in ascending alphabetical order, top to bottom.
+     * return Yes of yes, else NO
+     */
     public static String gridChallenge(List<String> grid) {
+        /*
+         * Reflection: Not an especially challenging question. I did get tripped up a bit when indexing (my weak point).
+         *             Solutions in the discussions didn't seem to improve on mine too much
+         *             time saving could be made by stuffing all sorted strings into a large string instead of
+         *             indexing out of a list to determine if columns are sorted.
+         */
         for (int i = 0; i < grid.size(); i++) {
             String row = grid.get(i);
             char[] rowToChar = row.toCharArray();
