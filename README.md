@@ -19,6 +19,7 @@ Tracking my progress on HackerRank :)
  - PageCount: work through examples carefully. Don't lose focus because "this is an easy question ill just rush through it".
  - TowerBreakers: I need to step back and see the bigger picture. Don't get caught up in a single detail. 
  - CaesarCipher: USE THE SIMPLEST SOLUTION. Need to think outside of the obvious naive way to do a problem. Ask "How can I write less code?", "How can I reduce operations".
+ - GridChallenge: I still need to improve my indexing visualization!
 
 #### Medium
  - FlippingTheMatrix: 
@@ -35,6 +36,5 @@ Tracking my progress on HackerRank :)
  - SalesByMatchin: my first problem solved using a hashmap! Feels good using what I've learned! :)))))))
  - MaxMin: this is the first non-trivial problem which I solved quickly (15 mins) and with the optimal solution! I'm super proud of myself!!!
  - DynamicArrays: Honestly a really dumb question. I can see this being less trivial in C where arrays aren't dynamic but in Java it doesn't test understanding of anything. 
- - GridChallenge: I still need to improve my indexing visualization!
  - PrimeDates: debugging the mainloop was straightforward but making us debug leap year logic is an utter waste of time. A horrible problem for testing coding knowledge. 
 
