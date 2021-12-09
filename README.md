@@ -35,4 +35,5 @@ Tracking my progress on HackerRank :)
  - SalesByMatchin: my first problem solved using a hashmap! Feels good using what I've learned! :)))))))
  - MaxMin: this is the first non-trivial problem which I solved quickly (15 mins) and with the optimal solution! I'm super proud of myself!!!
  - DynamicArrays: Honestly a really dumb question. I can see this being less trivial in C where arrays aren't dynamic but in Java it doesn't test understanding of anything. 
+ - GridChallenge: I still need to improve my indexing visualization!
 
