@@ -8,6 +8,14 @@ public class RecursiveDigitSum {
      * find superDigit of n concatenated k times
      */
     public static int superDigit(String n, int k) {
+        /*
+         * Reflection: Carefully check the number ranges, may need to use Long instead of int! Don't get fooled
+         *             int overflow in Java is > 2^31 or 2147483647
+         *
+         * Optimal Solution: I actually noticed an error the test cases didnt pick up!
+         *                   Initial if statement should be
+         *                   if (n.length() == 1 && k == 1)
+         */
 
         if (n.length() == 1) {
             return Integer.parseInt(n.repeat(k));
