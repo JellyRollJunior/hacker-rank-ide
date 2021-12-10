@@ -22,6 +22,7 @@ Tracking my progress on HackerRank :)
  - GridChallenge: I still need to improve my indexing visualization!
  - SherlockAndArray: be aware that you can manipulate forloop indexing to reduce code! Iteration i doesn't have to mean we're checking the solution for index i!
  - RecursiveDigitSum: Carefully check the number ranges, may need to use Long instead of int! Don't get fooled! int range in Java is (2^-31 - 2^31) or -2147483647 - 2147483647
+ - CounterGame: an extremely hard question to do optimally. The naive solution is easy and slow but the optimal solution involves bit level manipulation. Always keep if statements to a minimum as they're slow. 
 
 #### Medium
  - FlippingTheMatrix: 
