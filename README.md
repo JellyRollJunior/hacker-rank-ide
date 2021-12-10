@@ -23,7 +23,7 @@ Tracking my progress on HackerRank :)
  - SherlockAndArray: be aware that you can manipulate forloop indexing to reduce code! Iteration i doesn't have to mean we're checking the solution for index i!
  - RecursiveDigitSum: Carefully check the number ranges, may need to use Long instead of int! Don't get fooled! int range in Java is (2^-31 - 2^31) or -2147483647 - 2147483647
  - CounterGame: an extremely hard question to do optimally. The naive solution is easy and slow but the optimal solution involves bit level manipulation. Always keep if statements to a minimum as they're slow. 
- - **PalindromeIndex**: It's "basic" yet it has 67% pass rate... I only completed this question after using up two "look at test cases" hacks and then I had to go to discussions to get the final part on what I was missing. This is the longest I've ever spent on a "basic" quetion and in the end I didn't even complete it with my own solution. **This question is saying I need to create more comprehensive test cases if I want to solve problems this difficult.**
+ - **PalindromeIndex**: It's "basic" yet it has 67% pass rate... I only completed this question after using up two "look at test cases" hacks and then I had to go to discussions to get the final part on what I was missing. This is the longest I've ever spent on a "basic" quetion and in the end I needed help from discussions to compelete it. **This question is saying I need to create more comprehensive test cases if I want to solve problems this difficult.**
 
 #### Medium
  - FlippingTheMatrix: 
